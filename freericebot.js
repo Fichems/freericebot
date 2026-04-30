@@ -45,7 +45,7 @@ function freericebot() {
             if (ret != 0) {
                 break;
             }
-            delay = 3000 + Math.random() * 2000;
+            delay = 4000 + Math.random() * 2000;
             await sleep(delay);
 
         }
